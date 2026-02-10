@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wi‑Fi Planner — Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5136/5136950.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="container">
+    <nav class="nav glass">
+      <div class="logo">Ahmad Qadir</div>
+      <div class="nav-links">
+        <a href="index.html#projects">Back to Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <a class="btn ghost" href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero glass">
+      <div class="hero-text">
+        <p class="eyebrow">Project Case Study</p>
+        <h1>Wi‑Fi Planner — Floor Simulation Multi‑Vendor RSSI Calculator</h1>
+        <p class="subtext">
+          A real‑time Wi‑Fi RSSI calculator for network planning. The tool estimates signal strength based on AP power, frequency, distance, and wall/floor obstacles. It runs fully in the browser and supports multiple vendors.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="https://ahmad-qadir.github.io/Wi-Fi-Planner/" target="_blank" rel="noreferrer">Live Demo</a>
+          <a class="btn ghost" href="https://github.com/Ahmad-Qadir/Wi-Fi-Planner" target="_blank" rel="noreferrer">GitHub Repo</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <p class="meta-label">Tech</p>
+            <p class="meta-value">HTML • Bootstrap 5 • JavaScript</p>
+          </div>
+          <div>
+            <p class="meta-label">Mode</p>
+            <p class="meta-value">Client‑Side</p>
+          </div>
+          <div>
+            <p class="meta-label">Use Case</p>
+            <p class="meta-value">Wi‑Fi Planning</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Core Value</h3>
+        <p class="muted">Instant RSSI feedback with multi‑vendor flexibility and offline‑friendly usage.</p>
+        <div class="hero-tags">
+          <span>RSSI</span>
+          <span>Path Loss</span>
+          <span>Multi‑AP</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Key Features</h2>
+        <p class="muted">Practical capabilities designed for quick and accurate planning.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass fire-card">
+          <h3>Dynamic RSSI Calculation</h3>
+          <p class="muted">Updates instantly when AP power, frequency, distance, or wall types change.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Wall & Floor Modeling</h3>
+          <p class="muted">Concrete (15 dB), plastic (5 dB), and glass (7 dB) attenuation profiles.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Summary View</h3>
+          <p class="muted">Totals walls/floors, overall loss, and color‑coded RSSI health indicators.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Lightweight UI</h3>
+          <p class="muted">Clean Bootstrap 5 interface that runs fully in the browser with no backend.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Screenshot</h2>
+        <p class="muted">Real interface preview.</p>
+      </div>
+      <div class="screenshot glass">
+        <img src="https://github.com/user-attachments/assets/ee5a4f96-6a9e-4cae-bc66-d3516aaf4d3d" alt="Wi‑Fi Planner interface screenshot" />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Algorithms & Logic</h2>
+        <p class="muted">Transparent calculations for predictable planning.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass">
+          <h3>Distance‑Loss Formula</h3>
+          <p class="muted">Log‑Distance Path Loss (LDPL) — simplified for practical use.</p>
+        </article>
+        <article class="card glass">
+          <h3>RSSI Estimation</h3>
+          <p class="muted">Free‑Space Path Loss approximation for signal prediction.</p>
+        </article>
+        <article class="card glass">
+          <h3>Multi‑AP Selection</h3>
+          <p class="muted">Chooses the strongest signal (max RSSI) for each zone.</p>
+        </article>
+        <article class="card glass">
+          <h3>Device Suggestion</h3>
+          <p class="muted">Heuristic matching based on TX power and capacity tolerance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Why It Stands Out</h2>
+        <p class="muted">Built for flexibility, speed, and real‑world deployments.</p>
+      </div>
+      <div class="split">
+        <div class="glass panel">
+          <h3>Open & Offline</h3>
+          <ul class="list">
+            <li>No login required</li>
+            <li>Runs fully in the browser</li>
+            <li>Free to use</li>
+          </ul>
+        </div>
+        <div class="glass panel">
+          <h3>Multi‑Vendor Ready</h3>
+          <ul class="list">
+            <li>Supports multiple brands</li>
+            <li>Easy JSON model additions</li>
+            <li>Custom RSSI rules are editable</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Tech Stack</h2>
+        <p class="muted">Minimal dependencies and fast performance.</p>
+      </div>
+      <div class="chips glass">
+        <span>HTML5</span>
+        <span>Bootstrap 5</span>
+        <span>JavaScript</span>
+        <span>Client‑Side Rendering</span>
+      </div>
+    </section>
+
+    <section class="section" id="project-links">
+      <div class="section-header">
+        <h2>Project Links</h2>
+        <p class="muted">Explore the tool or view the source code.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass">
+          <h3>Live Demo</h3>
+          <p class="muted">Test the tool in your browser.</p>
+          <a class="btn" href="https://ahmad-qadir.github.io/Wi-Fi-Planner/" target="_blank" rel="noreferrer">Open Demo</a>
+        </article>
+        <article class="card glass">
+          <h3>Source Code</h3>
+          <p class="muted">Review the implementation on GitHub.</p>
+          <a class="btn ghost" href="https://github.com/Ahmad-Qadir/Wi-Fi-Planner" target="_blank" rel="noreferrer">View Repo</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer glass">
+      <p class="muted">© 2026 Ahmad Abdullah Qadir. All rights reserved.</p>
+      <div class="social">
+        <a href="index.html">Home</a>
+        <a href="https://github.com/Ahmad-Qadir" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
