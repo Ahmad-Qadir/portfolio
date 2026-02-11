@@ -23,6 +23,7 @@ body {
   color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
+  padding-top: 120px;
 }
 
 a {
@@ -33,6 +34,20 @@ a {
 .container {
   width: min(1500px, 96vw);
   margin: 0 auto;
+}
+
+header.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+header.container.nav-hidden {
+  transform: translateY(-120%);
+  opacity: 0.4;
 }
 
 .bg-orb {
@@ -103,6 +118,23 @@ a {
 
 .nav-links a:hover {
   color: var(--text);
+}
+
+.nav-links a.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.nav-links .soon {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--muted);
 }
 
 .btn {
@@ -472,5 +504,9 @@ textarea:focus {
 
   .footer {
     flex-direction: column;
+  }
+
+  body {
+    padding-top: 150px;
   }
 }
