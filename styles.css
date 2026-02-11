@@ -267,10 +267,30 @@ a {
   font-size: 0.95rem;
 }
 
-.card-actions {
+.card-tags {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.card-tags span {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 12px;
   margin-top: auto;
+}
+
+.card-actions .btn {
+  width: 100%;
 }
 
 .split {
