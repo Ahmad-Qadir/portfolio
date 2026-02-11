@@ -56,3 +56,26 @@ if (header) {
     }
   }, { passive: true });
 }
+
+const contactForm = document.querySelector('#contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const name = document.querySelector('#contact-name')?.value.trim();
+    const email = document.querySelector('#contact-email')?.value.trim();
+    const message = document.querySelector('#contact-message')?.value.trim();
+
+    if (!name || !email || !message) {
+      alert('Please fill out all fields before submitting.');
+      return;
+    }
+
+    const subject = `New project inquiry from ${name}`;
+    const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
+    const mailtoLink = `mailto:ahmad.qadir@outlook.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+    contactForm.reset();
+  });
+}

@@ -106,7 +106,7 @@
           </div>
           <div class="card-actions">
             <a href="wifi-planner.html" class="btn">Project Page</a>
-            <a href="https://ahmad-qadir.github.io/Wi-Fi-Planner/" class="btn ghost" target="_blank" rel="noreferrer">Live Demo</a>
+            <a href="https://wi-fi-planner.ahmad-qadir.dev" class="btn ghost" target="_blank" rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -403,10 +403,10 @@
           <p class="muted">Website: <a href="http://ahmad-qadir.dev/">ahmad-qadir.dev</a></p>
           <p class="muted">GitHub: <a href="https://github.com/Ahmad-Qadir">github.com/Ahmad-Qadir</a></p>
         </div>
-        <form class="form" onsubmit="return false;">
-          <input type="text" placeholder="Your name" />
-          <input type="email" placeholder="Email" />
-          <textarea rows="4" placeholder="Tell me about your project"></textarea>
+        <form class="form" id="contact-form">
+          <input id="contact-name" name="name" type="text" placeholder="Your name" required />
+          <input id="contact-email" name="email" type="email" placeholder="Email" required />
+          <textarea id="contact-message" name="message" rows="4" placeholder="Tell me about your project" required></textarea>
           <button class="btn" type="submit">Send Message</button>
         </form>
       </div>
