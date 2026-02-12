@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tarin Subscriberts Portal — Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5136/5136950.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="container">
+    <nav class="nav glass">
+      <div class="logo">Ahmad Qadir</div>
+      <div class="nav-links">
+        <a href="index.html#projects">Back to Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <a class="btn ghost" href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero glass">
+      <div class="hero-text">
+        <p class="eyebrow">Project Overview</p>
+        <h1>Tarin Subscriberts Portal — ISP Customer Portal + Admin Suite</h1>
+        <p class="subtext">
+          Tarin Subscriberts Portal is a Node.js platform that powers customer login, account checks, refill workflows, and admin client management. It includes Swagger documentation and multi-portal support for standard and UKH operations.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#features">Explore Features</a>
+          <a class="btn ghost" href="https://myaccount.tarinnet.info/" target="_blank" rel="noreferrer">Live Portal</a>
+          <a class="btn ghost" href="index.html#contact">Request Demo</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <p class="meta-label">Focus</p>
+            <p class="meta-value">ISP Self-Service</p>
+          </div>
+          <div>
+            <p class="meta-label">Stack</p>
+            <p class="meta-value">Node.js • Express • MongoDB</p>
+          </div>
+          <div>
+            <p class="meta-label">Docs</p>
+            <p class="meta-value">Swagger API Center</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img class="page-logo" src="assets/icon.jpg" alt="Tarin Subscriberts Portal logo" />
+        <h3>Core Value</h3>
+        <p class="muted">Fast customer actions, reliable refills, and clear admin control for ISP teams.</p>
+        <div class="hero-tags">
+          <span>Portal</span>
+          <span>Admin</span>
+          <span>API Docs</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-header">
+        <h2>Key Features</h2>
+        <p class="muted">Customer workflows and admin tooling in one platform.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass fire-card">
+          <h3>Secure Login</h3>
+          <p class="muted">Credential validation with cookie-based session handling.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>User Menu</h3>
+          <p class="muted">Account details, activation dates, and MAC address retrieval.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Refill Flow</h3>
+          <p class="muted">Voucher-based refills with success and failure reporting.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Admin Clients</h3>
+          <p class="muted">Client registration, listing, and management through admin views.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>UKH Portal</h3>
+          <p class="muted">Dedicated routes and templates for UKH operations.</p>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Swagger Docs</h3>
+          <p class="muted">Documented endpoints with a built-in API center.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>System Preview</h2>
+        <p class="muted">Replace with real portal screenshots.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass">
+          <img class="screenshot-img" src="assets/myaccount/homepage.png" alt="Tarin Subscriberts Portal home preview" />
+        </article>
+        <article class="card glass">
+          <img class="screenshot-img" src="assets/myaccount/menu page.png" alt="Tarin Subscriberts Portal menu preview" />
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Core Modules</h2>
+        <p class="muted">Key integrations and dependencies.</p>
+      </div>
+      <div class="chips glass">
+        <span>Express.js</span>
+        <span>Axios</span>
+        <span>MongoDB</span>
+        <span>Mongoose</span>
+        <span>Pug Templates</span>
+        <span>Swagger</span>
+        <span>HTML Table Parser</span>
+        <span>Cookie Parser</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>API Highlights</h2>
+        <p class="muted">Core endpoints supporting the customer and admin portals.</p>
+      </div>
+      <div class="split">
+        <div class="glass panel">
+          <h3>Customer Routes</h3>
+          <ul class="list">
+            <li>Login and cookie initialization</li>
+            <li>User menu data extraction</li>
+            <li>Refill operations and results</li>
+          </ul>
+        </div>
+        <div class="glass panel">
+          <h3>Admin Routes</h3>
+          <ul class="list">
+            <li>Client listing and registration</li>
+            <li>Admin client add workflow</li>
+            <li>Dedicated UKH routes and views</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Deployment Notes</h2>
+        <p class="muted">Minimum environment to run the platform.</p>
+      </div>
+      <div class="chips glass">
+        <span>Node.js 14+</span>
+        <span>MongoDB Atlas</span>
+        <span>Express Server</span>
+        <span>Swagger UI</span>
+        <span>HTML Parsing</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer glass">
+      <p class="muted">© 2026 Ahmad Abdullah Qadir. All rights reserved.</p>
+      <div class="social">
+        <a href="index.html">Home</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
