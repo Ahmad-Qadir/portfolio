@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ahmad-qadir.dev/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-21</lastmod>
   </url>
   <url>
     <loc>https://ahmad-qadir.dev/microgateway.html</loc>
@@ -35,5 +35,9 @@
   <url>
     <loc>https://ahmad-qadir.dev/cv.html</loc>
     <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://ahmad-qadir.dev/mikrobox.html</loc>
+    <lastmod>2026-04-21</lastmod>
   </url>
 </urlset>

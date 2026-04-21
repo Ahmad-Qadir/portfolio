@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MikroBox | Ahmad Qadir - Network Engineer</title>
+  <meta name="description" content="MikroBox is a standalone Electron desktop app for MikroTik administration with neighbor discovery, device information, interface monitoring, wireless management, DHCP, firewall, and automation tools." />
+  <meta name="keywords" content="MikroBox, MikroTik, Electron app, RouterOS desktop app, neighbor discovery, network automation" />
+  <meta name="author" content="Ahmad Abdullah Qadir" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ahmad-qadir.dev/mikrobox.html" />
+  <meta property="og:title" content="MikroBox | Ahmad Qadir - Network Engineer" />
+  <meta property="og:description" content="Standalone Electron app for MikroTik router administration, discovery, monitoring, and quick automation workflows." />
+  <meta property="og:url" content="https://ahmad-qadir.dev/mikrobox.html" />
+  <meta property="og:site_name" content="Ahmad Qadir - Network Engineer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://ahmad-qadir.dev/assets/mikrobox/dashboard.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MikroBox | Ahmad Qadir - Network Engineer" />
+  <meta name="twitter:description" content="Standalone Electron app for MikroTik router administration, discovery, monitoring, and quick automation workflows." />
+  <meta name="twitter:image" content="https://ahmad-qadir.dev/assets/mikrobox/dashboard.png" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "MikroBox — Project",
+      "url": "https://ahmad-qadir.dev/mikrobox.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Ahmad Qadir - Network Engineer",
+        "url": "https://ahmad-qadir.dev/"
+      },
+      "mainEntity": {
+        "@type": "SoftwareApplication",
+        "name": "MikroBox",
+        "applicationCategory": "NetworkingApplication",
+        "operatingSystem": "Windows",
+        "description": "Standalone Electron desktop application for MikroTik administration with live monitoring, neighbor discovery, and RouterOS automation.",
+        "url": "https://ahmad-qadir.dev/mikrobox.html",
+        "creator": {
+          "@type": "Person",
+          "name": "Ahmad Abdullah Qadir",
+          "url": "https://ahmad-qadir.dev/"
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5136/5136950.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <header class="container">
+    <nav class="nav glass">
+      <div class="brand">
+        <div class="logo">Ahmad Qadir</div>
+        <div class="nav-region"><span class="flag-group"><img class="flag" src="assets/iraqflag.webp" alt="Iraq flag" /><img class="flag" src="assets/krgflag.png" alt="Kurdistan flag" /></span><span>Kurdistan Region of Iraq</span></div>
+      </div>
+      <div class="nav-links">
+        <a href="index.html#projects">Back to Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <a class="btn ghost" href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero glass">
+      <div class="hero-text">
+        <p class="eyebrow">Project Overview</p>
+        <h1>MikroBox — Desktop MikroTik Administration App</h1>
+        <p class="subtext">
+          MikroBox is a standalone Electron application for managing MikroTik routers from a desktop interface. It brings WinBox-style neighbor discovery together with live device monitoring, RouterOS configuration panels, wireless tools, DHCP visibility, firewall actions, and one-click automation helpers.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#features">Explore Features</a>
+          <a class="btn ghost" href="index.html#contact">Request Demo</a>
+        </div>
+        <div class="hero-meta">
+          <div>
+            <p class="meta-label">Focus</p>
+            <p class="meta-value">Desktop Operations</p>
+          </div>
+          <div>
+            <p class="meta-label">Stack</p>
+            <p class="meta-value">Electron • Node.js</p>
+          </div>
+          <div>
+            <p class="meta-label">Protocol</p>
+            <p class="meta-value">RouterOS API</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Core Value</h3>
+        <p class="muted">A focused desktop control center for MikroTik discovery, monitoring, and rapid configuration.</p>
+        <div class="hero-tags">
+          <span>Electron</span>
+          <span>MikroTik</span>
+          <span>Automation</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-header">
+        <h2>Key Features</h2>
+        <p class="muted">Capabilities extracted directly from the application code and UI.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass fire-card">
+          <h3>Neighbor Discovery</h3>
+          <ul class="card-list">
+            <li>MNDP discovery similar to WinBox</li>
+            <li>Device list with identity, IP, MAC, board, and version</li>
+            <li>Quick connect flow from discovered routers</li>
+          </ul>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Live Device Monitoring</h3>
+          <ul class="card-list">
+            <li>Identity, uptime, CPU, memory, and board info</li>
+            <li>Firmware update warning panel</li>
+            <li>Auto-refreshing device information</li>
+          </ul>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Interface Operations</h3>
+          <ul class="card-list">
+            <li>Live RX and TX monitoring</li>
+            <li>Interface enable, disable, and update actions</li>
+            <li>CSV export for operational reporting</li>
+          </ul>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Wireless Management</h3>
+          <ul class="card-list">
+            <li>Registration table for connected clients</li>
+            <li>Wireless settings and security views</li>
+            <li>Signal and traffic visibility for operations teams</li>
+          </ul>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Network Services</h3>
+          <ul class="card-list">
+            <li>DHCP leases and ARP table access</li>
+            <li>IP address and route management</li>
+            <li>NAT and firewall rule administration</li>
+          </ul>
+        </article>
+        <article class="card glass fire-card">
+          <h3>Automation Helpers</h3>
+          <ul class="card-list">
+            <li>Auto masquerade, EoIP, route, RADIUS, and DHCP helpers</li>
+            <li>Security and SNTP quick configuration</li>
+            <li>Connectivity tests for Google and gateway reachability</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Desktop Workflow</h2>
+        <p class="muted">Designed for technicians and network operators who need a fast local tool.</p>
+      </div>
+      <div class="split">
+        <div class="glass panel">
+          <h3>Operational Flow</h3>
+          <ul class="list">
+            <li>Discover routers on the local network using MNDP</li>
+            <li>Authenticate once and keep a persistent working session</li>
+            <li>Switch between device, wireless, DHCP, firewall, and log views</li>
+            <li>Run repeatable one-click automation for common setup tasks</li>
+          </ul>
+        </div>
+        <div class="glass panel">
+          <h3>Engineering Details</h3>
+          <ul class="list">
+            <li>Built with Electron 27 and Node.js</li>
+            <li>Uses `mikronode-ng` for RouterOS API communication</li>
+            <li>Safe credential storage and Electron preload bridge</li>
+            <li>Windows packaging via `electron-builder` with installer and portable targets</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Application Preview</h2>
+        <p class="muted">Screens from the actual desktop app in the portfolio assets.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass screenshot">
+          <img class="screenshot-img" src="assets/mikrobox/login.png" alt="MikroBox login screen" />
+        </article>
+        <article class="card glass screenshot">
+          <img class="screenshot-img" src="assets/mikrobox/dashboard.png" alt="MikroBox dashboard screen" />
+        </article>
+        <article class="card glass screenshot">
+          <img class="screenshot-img" src="assets/mikrobox/interfaces.png" alt="MikroBox interfaces screen" />
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Technology Stack</h2>
+        <p class="muted">Built as a standalone operations utility.</p>
+      </div>
+      <div class="chips glass">
+        <span>Electron</span>
+        <span>Node.js</span>
+        <span>JavaScript</span>
+        <span>mikronode-ng</span>
+        <span>RouterOS API</span>
+        <span>MNDP Discovery</span>
+        <span>electron-builder</span>
+        <span>Windows Desktop</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <h2>Project Outcome</h2>
+        <p class="muted">Why this tool matters in practice.</p>
+      </div>
+      <div class="grid">
+        <article class="card glass">
+          <h3>Faster Technician Workflow</h3>
+          <p class="muted">Moves common RouterOS operations into a desktop UI so technicians can inspect and act faster than a purely CLI-based workflow.</p>
+        </article>
+        <article class="card glass">
+          <h3>Discovery + Administration</h3>
+          <p class="muted">Combines local-network discovery with authenticated device management in one place instead of splitting tools.</p>
+        </article>
+        <article class="card glass">
+          <h3>Built for Repeatability</h3>
+          <p class="muted">Automation shortcuts reduce repetitive setup work and make common configuration steps more consistent across deployments.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer glass">
+      <p class="muted">© 2026 Ahmad. All rights reserved.</p>
+      <div class="social">
+        <a href="https://github.com/Ahmad-Qadir">GitHub</a>
+        <a href="https://www.facebook.com/Ahmed.A.Qadir" target="_blank" rel="noreferrer">Facebook</a>
+        <a href="https://www.youtube.com/@DevOps_Networking" target="_blank" rel="noreferrer">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
